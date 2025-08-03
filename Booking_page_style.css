@@ -1,0 +1,57 @@
+@charset "utf-8";
+ .site-title {
+      background-color:#e3eff7;
+      color: #173251;
+      font-weight: bold;
+      font-size: 2.5rem;
+      text-align: center;
+      padding: 20px 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      letter-spacing: 2px;
+      user-select: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+body {
+      background: #e3eff7;
+    }
+     .navbar.custom-navbar {
+      background-color:#173251;
+      border-radius: 12px;
+      height: 60px;
+      padding: 0 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .booking-form {
+      background:#e3eff7;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      margin-top: 50px;
+    }
+    .form-control:focus {
+      box-shadow: none;
+    }
+	 
+  .row.justify-content-center .col-md-8 .booking-form {
+    background-image:linear-gradient(to right,#cce6fa,#476591) ;
+}
+
+  .booking-form form .btn.btn-primary.btn-block {
+    background-color: #173251;
+	  color: rgb(231, 237, 254);
+}  
+ .navbar-brand img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  footer {
+      background-color: #173251;
+      color: #edfdff;
+      padding: 15px 0;
+      font-weight: 500;
+      text-align: center;
+      user-select: none;
+      margin-top: auto;
+    }
